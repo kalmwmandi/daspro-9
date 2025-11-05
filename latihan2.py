@@ -20,6 +20,6 @@ def login():
                 print("password salah, sisa kesempatan:", kesempatan)
         print("anda telah 3 kali salah, akses ditolak")
     else:
-        print("username tidak terdaftar")
+        print("maaf, username tidak terdaftar")
 
 login()
