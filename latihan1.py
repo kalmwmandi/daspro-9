@@ -29,7 +29,7 @@ def hitung_total_rata(*angka):
     rata = total / len(angka)
     return total, rata
 
-input_angka = input("\nmasukkan angka yg dipisah oleh koma: ")
+input_angka = input("\nmasukkan angka yg dipisah koma: ")
 angka_list = [int(x.strip()) for x in input_angka.split(",")]
 total, rata = hitung_total_rata(*angka_list)
 print("total:", total)

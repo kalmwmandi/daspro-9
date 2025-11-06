@@ -24,6 +24,6 @@ def hitung_selisih_waktu():
     menit = selisih // 60
     detik = selisih % 60
 
-    print(f"\nselisih waktu: {jam} jam - {menit} menit - {detik} detik")
+    print(f"\nselisih waktunya adalah: {jam} jam - {menit} menit - {detik} detik")
 
 hitung_selisih_waktu()
